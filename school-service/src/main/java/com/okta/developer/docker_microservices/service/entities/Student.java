@@ -17,4 +17,28 @@ public class Student {
     private Long id;
     @NonNull private String name;
     @NonNull private short age;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public short getAge() {
+        return age;
+    }
+
+    public void setAge(short age) {
+        this.age = age;
+    }
 }
